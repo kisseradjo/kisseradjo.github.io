@@ -6,7 +6,7 @@
 
 ## Description
 
-This is an independent project aimed at testing my understanding of this week's projects.It is webpage(s) meant to give information about myself, my hobbies and the reason for signing up for class. It is a try-out.
+This is an independent project aimed at testing my understanding of this week's projects.It is a webpage meant to give information about myself, my hobbies and the reason for signing up for class. It is a try-out.
 
 ## Setup/Installation Requirements
 
@@ -30,4 +30,4 @@ Please feel free to contact me if you have any suggestions on how to make this p
 
 _MIT_
 
-Copyright (c) 2017 **Andrew Anampiu** **James Duah**
+Copyright (c) 2017 **Adjo Kisser**
