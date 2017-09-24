@@ -37,9 +37,13 @@ a {
 .part1 {
   height: 60px;
   width: 100%;
-  background-color: #CFB095;
-  color: black;
+  background-color: #dac292;
+  color: #674b4b;
+  padding-left: 200px;
+  font-size: 40px;
 }
+
+.col-md-3 .active {}
 
 .title-heads:hover:active {
   color: white;
@@ -47,39 +51,96 @@ a {
 
 .part2 {
   background-image: url(../images/adjo1.JPG);
+  height: 500px;
+  width: 100%;
+  background-size: 100%;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  padding: 200px 200px 0px 400px;
+  margin: 0%;
+  font-size: 100px;
+  color: #442828;
+  /*opacity: 1.0;*/
+  /*filter: alpha(opacity=100);*/
+}
+
+
+}
+.part2a {
+  height: 50px;
+  width: 150px;
+  color: black;
+  position: absolute;
+  left: 0;
+  background: rgba(255, 255, 255, .8);
+  /*opacity: 0.5;
+  filter: alpha(opacity=25);*/
+
+  padding: 140px 140px 200px 400px;
+}
+.part3 {
   height: 300px;
   width: 100%;
+  background-color: #e6e2d3;
 }
-
-.container .part2a {
-  height: 50px;
-  width: 100px;
-  opacity: 0.5;
-  color: black;
-  text-align: center;
-}
-
-.part2b {
-  height: 30px;
-  width: 100%;
-  background-color: white;
-}
-
-.part3 {
-  height: 250px;
-  width: 100%;
-  background-color: #CFB095;
-}
-
 .small-part3 {
-  box-shadow: 0 0 4px 0px;
-  background-color: #CFB095;
+  box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #e6e2d3;
+  height: 250px;
+  width: 1250px;
+  margin: 25px 90px 25px 45px;
 }
-
 .part3a {
   float: left;
+  padding-top: 15px;
+  font-size: 15px;
+  /*border-right: 1px solid;
+  border-color: lightgrey;*/
+  /*border-spacing: inherit;*/
 }
-
 .part3b {
   float: right;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  padding-top: 50px;
+  /*border-left: 1px solid;
+  border-color: lightgrey;
+  padding-right: -20px;*/
+  /*padding-left: 40px;*/
 }
+.part4 {
+  background-image: url(../images/bichon.jpg);
+  height: 400px;
+  background-size: 70%;
+  background-repeat: repeat;
+  width: 100%;
+}
+.label {
+  color: #dac292;
+  font-size: 30px;
+}
+.form-inline {
+  text-align: center;
+  padding-top: 160px;
+}
+#name {
+  background-color: #dac292;
+  border-color: #dac292;
+  height: 45px;
+  width: 200px;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+}
+#the-email {
+  height: 45px;
+  width: 350px;
+  font-size: 20px;
+}
+.part5 {
+  height: 400px;
+  width: 100%;
+}
+.part5a
