@@ -1,3 +1,5 @@
+/*Navigatiom*/
+
 nav {
   display: flex;
   justify-content: center;
@@ -16,6 +18,9 @@ a {
   text-decoration: none;
 }
 
+
+/*Opening navigation*/
+
 #open-nav {
   position: absolute;
   font-size: 30px;
@@ -24,14 +29,14 @@ a {
   z-index: +1;
 }
 
+
+/*Closing navigation*/
+
 #close-nav {
   position: absolute;
   font-size: 50%;
   padding: 2px 5px 5px 0px;
   bottom: 90%;
-  /*top: 20px;*/
-  /*margin-bottom: 100%;*/
-  /*top: 5%;*/
 }
 
 .part1 {
@@ -42,8 +47,6 @@ a {
   padding-left: 200px;
   font-size: 40px;
 }
-
-.col-md-3 .active {}
 
 .title-heads:hover {
   color: white;
@@ -69,6 +72,9 @@ h2 {
   padding: 0px 80px 0 90px;
 }
 
+
+/*introducing a transclucent covering over name*/
+
 #opacity {
   height: 200px;
   width: 600px;
@@ -88,6 +94,9 @@ h2 {
   width: 100%;
   background-color: #e6e2d3;
 }
+
+
+/*put a smaller component within the third part*/
 
 .small-part3 {
   box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -152,11 +161,6 @@ h2 {
   /*float: left;*/
 }
 
-
-/*.pack {
-  float: left;
-}*/
-
 .part5a {
   background: url(../images/mockup-2443050_960_720.jpg);
   background-size: 100%;
@@ -170,6 +174,9 @@ h2 {
   color: white;
   font-size: 30px;
 }
+
+
+/*hover effect*/
 
 .part5a:hover {
   opacity: 0.5;
@@ -191,6 +198,9 @@ h2 {
   font-size: 30px;
 }
 
+
+/*hover effect*/
+
 .part5b:hover {
   opacity: 0.5;
   filter: alpha(opacity=25);
@@ -210,6 +220,9 @@ h2 {
   color: white;
   font-size: 30px;
 }
+
+
+/*hover effect*/
 
 .part5c:hover {
   opacity: 0.5;
