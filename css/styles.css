@@ -2,12 +2,12 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #F15A29;
+  height: 200px;
+  background-color: #dac292;
   position: absolute;
-  width: 100%;
-  left: -100%;
-  font-size: 50px;
+  width: 400px;
+  bottom: : -400px;
+  font-size: 13px;
   color: black;
 }
 
@@ -18,8 +18,8 @@ a {
 
 #open-nav {
   position: absolute;
-  font-size: 300%;
-  padding: 5%;
+  font-size: 30px;
+  padding: 2% 5% 3% 3%;
   color: white;
   z-index: +1;
 }
@@ -27,11 +27,11 @@ a {
 #close-nav {
   position: absolute;
   font-size: 50%;
-  padding: 5px 15px 900px 500px;
-  left: 90%;
+  padding: 2px 5px 5px 0px;
+  bottom: 90%;
   /*top: 20px;*/
-  margin-bottom: 100%;
-  top: 5%;
+  /*margin-bottom: 100%;*/
+  /*top: 5%;*/
 }
 
 .part1 {
@@ -56,60 +56,60 @@ a {
   background-size: 100%;
 }
 
+.part2a {
+  padding-top: 150px;
+}
+
 h2 {
   font-family: 'Dancing Script', cursive;
-  padding: 200px 200px 0px 400px;
-  margin: 0%;
   font-size: 100px;
-  color: #442828;
-  /*opacity: 1.0;*/
-  /*filter: alpha(opacity=100);*/
-}
-
-
-}
-.part2a {
-  height: 50px;
-  width: 150px;
   color: black;
-  position: absolute;
-  left: 0;
-  background: rgba(255, 255, 255, .8);
-  /*opacity: 0.5;
-  filter: alpha(opacity=25);*/
-
-  padding: 140px 140px 200px 400px;
+  opacity: 1.0;
+  text-align: center;
+  padding: 0px 80px 0 90px;
 }
+
+#opacity {
+  height: 200px;
+  width: 600px;
+  background-color: white;
+  opacity: 0.5;
+  margin: 0px 180px 20px 380px;
+  background-position: center;
+}
+
+#text {
+  padding-top: 25px;
+  /*opacity: 1.0;*/
+}
+
 .part3 {
   height: 300px;
   width: 100%;
   background-color: #e6e2d3;
 }
+
 .small-part3 {
   box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #e6e2d3;
   height: 250px;
   width: 1250px;
-  margin: 25px 90px 25px 45px;
+  margin: 25px 90px 25px 35px;
 }
+
 .part3a {
   float: left;
   padding-top: 15px;
   font-size: 15px;
-  /*border-right: 1px solid;
-  border-color: lightgrey;*/
-  /*border-spacing: inherit;*/
 }
+
 .part3b {
   float: right;
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
   padding-top: 50px;
-  /*border-left: 1px solid;
-  border-color: lightgrey;
-  padding-right: -20px;*/
-  /*padding-left: 40px;*/
 }
+
 .part4 {
   background-image: url(../images/bichon.jpg);
   height: 400px;
@@ -117,14 +117,17 @@ h2 {
   background-repeat: repeat;
   width: 100%;
 }
+
 .label {
   color: #dac292;
   font-size: 30px;
 }
+
 .form-inline {
   text-align: center;
   padding-top: 160px;
 }
+
 #name {
   background-color: #dac292;
   border-color: #dac292;
@@ -134,13 +137,82 @@ h2 {
   color: white;
   margin-left: 20px;
 }
+
 #the-email {
   height: 45px;
   width: 350px;
   font-size: 20px;
 }
+
 .part5 {
-  height: 400px;
+  height: 200px;
   width: 100%;
+  margin-top: 150px;
+  margin-left: 5px;
+  /*float: left;*/
 }
-.part5a
+
+
+/*.pack {
+  float: left;
+}*/
+
+.part5a {
+  background: url(../images/mockup-2443050_960_720.jpg);
+  background-size: 100%;
+  width: 400px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  text-align: center;
+  font-style: italic;
+  color: white;
+  font-size: 30px;
+}
+
+.part5a:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=25);
+  color: black;
+}
+
+.part5b {
+  background: url(../images/footprint-2353510_960_720.jpg);
+  background-size: 100%;
+  width: 400px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  text-align: center;
+  font-style: italic;
+  color: white;
+  font-size: 30px;
+}
+
+.part5b:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=25);
+  color: black;
+}
+
+.part5c {
+  background: url(../images/scrabble-2129648_960_720.jpg);
+  background-size: 100%;
+  width: 400px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  text-align: center;
+  font-style: italic;
+  color: white;
+  font-size: 30px;
+}
+
+.part5c:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=25);
+  color: black;
+}
