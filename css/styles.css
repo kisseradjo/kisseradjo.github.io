@@ -118,10 +118,62 @@ h2 {
 }
 
 .part5 {
-  height: 300px;
+  height: 500px;
   width: 100%;
   padding-top: 100px;
   margin-left: 5px;
   background-color: white;
   background-repeat: repeat;
+}
+
+.projects-section {
+  height: 25vh;
+  text-align: center;
+  width: 33.3%;
+  float: left;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: relative;
+  height: inherit;
+  bottom: 0;
+  transition: background-color 2s, bottom 2s;
+}
+
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  position: relative;
+  height: inherit;
+  bottom: 75%;
+  transition: background-color 2s, bottom 2s;
+}
+
+#project-one {
+  background-image: url('../images/mockup-2443050_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+  width: 400px;
+}
+
+#project-two {
+  background-image: url('../images/footprint-2353510_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+  width: 400px;
+}
+
+#project-three {
+  background-image: url('../images/scrabble-2129648_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+  width: 400px;
+}
+
+#projects {
+  height: 100%;
 }
