@@ -1,49 +1,13 @@
-/*Navigatiom*/
-
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  background-color: #dac292;
-  position: absolute;
-  width: 400px;
-  bottom: : -400px;
-  font-size: 13px;
-  color: black;
-}
-
 a {
   color: black;
   text-decoration: none;
-}
-
-
-/*Opening navigation*/
-
-#open-nav {
-  position: absolute;
-  font-size: 30px;
-  padding: 2% 5% 3% 3%;
-  color: white;
-  z-index: +1;
-}
-
-
-/*Closing navigation*/
-
-#close-nav {
-  position: absolute;
-  font-size: 50%;
-  padding: 2px 5px 5px 0px;
-  bottom: 90%;
 }
 
 .part1 {
   height: 60px;
   width: 100%;
   background-color: #c78d67;
-  color: #674b4b;
+  color: black;
   padding-left: 200px;
   font-size: 40px;
 }
@@ -96,7 +60,7 @@ h2 {
 }
 
 
-/*put a smaller component within the third part*/
+/*putting a smaller component within the third part*/
 
 .small-part3 {
   box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -154,78 +118,10 @@ h2 {
 }
 
 .part5 {
-  height: 200px;
+  height: 300px;
   width: 100%;
-  margin-top: 150px;
+  padding-top: 100px;
   margin-left: 5px;
-  /*float: left;*/
-}
-
-.part5a {
-  background: url(../images/mockup-2443050_960_720.jpg);
-  background-size: 100%;
-  width: 400px;
-  min-height: 200px;
-  background-repeat: no-repeat;
-  opacity: 1.0;
-  filter: alpha(opacity=100);
-  text-align: center;
-  font-style: italic;
-  color: white;
-  font-size: 30px;
-}
-
-
-/*hover effect*/
-
-.part5a:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=25);
-  color: black;
-}
-
-.part5b {
-  background: url(../images/footprint-2353510_960_720.jpg);
-  background-size: 100%;
-  width: 400px;
-  min-height: 200px;
-  background-repeat: no-repeat;
-  opacity: 1.0;
-  filter: alpha(opacity=100);
-  text-align: center;
-  font-style: italic;
-  color: white;
-  font-size: 30px;
-}
-
-
-/*hover effect*/
-
-.part5b:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=25);
-  color: black;
-}
-
-.part5c {
-  background: url(../images/scrabble-2129648_960_720.jpg);
-  background-size: 100%;
-  width: 400px;
-  min-height: 200px;
-  background-repeat: no-repeat;
-  opacity: 1.0;
-  filter: alpha(opacity=100);
-  text-align: center;
-  font-style: italic;
-  color: white;
-  font-size: 30px;
-}
-
-
-/*hover effect*/
-
-.part5c:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=25);
-  color: black;
+  background-color: white;
+  background-repeat: repeat;
 }

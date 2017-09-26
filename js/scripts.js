@@ -13,7 +13,7 @@ $(document).ready(function() {
     e.preventDefault();
     //animating the navigation in 2 seconds
     $('nav').animate({
-      bottom: "-400px"
+      bottom: "-200px"
     }, 2000);
     $('#open-nav').show("slow");
 
