@@ -10,6 +10,9 @@
     color: black;
     padding-left: 170px;
     font-size: 40px;
+    position: fixed;
+    z-index: 1;
+    cursor: pointer;
   }
 
   .title-heads .col-md-3:hover:not(.fiesty) {
@@ -139,6 +142,7 @@
     text-align: center;
     width: 33%;
     float: left;
+    /*margin-left: 5px;*/
   }
 
   .overlay {
