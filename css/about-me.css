@@ -1,0 +1,37 @@
+  body {
+    background-color: #CD5C5C;
+    padding-top: 10px;
+  }
+
+  h1 {
+    color: black;
+    text-align: center;
+    justify;
+    font-size: 80px;
+    font-family: sans-serif;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .adjo {
+    background-image: url("../images/adjo1.JPG");
+  }
+
+  p {
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .well {
+    color: black;
+    padding: 0px;
+    border-width: 0px;
+    background-color: #FFA07A;
+  }
+
+  a {
+    color: black;
+  }
